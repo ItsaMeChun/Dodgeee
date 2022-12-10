@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
-    float moveSpeed = 20f;
+    float moveSpeed = 10f;
     void OnCollisionEnter(Collision other)
     {
         Debug.Log(other.gameObject);
